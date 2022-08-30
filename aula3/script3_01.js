@@ -7,4 +7,6 @@ document.write (dia);
 document.write("<br>");
 document.write (nota);
 document.write("<br>");
-document.write(oct,"<br>",bin,"<br>",hexa);
+document.write(oct,"<br>",bin,"<br>",hexa,"<br>");
+document.write("oct: ",oct,"<br>");
+document.write("hexa: ",hexa,"<br>");
