@@ -8,7 +8,7 @@ b=parseInt( prompt("Digite outro número") );//2.7
 document.write (`soma: ${(a+b)} <br>`);
 
 document.write ("subtração: "+ (a-b) + "<br>");
-document.write(`A multiplicação de ${a} por ${b} vale ${(a*b)}<br>`);
+document.write (`A multiplicação de ${a} por ${b} vale ${(a*b)}<br>`);
 /*
 Desafio 1:
 Saída para o navegador
