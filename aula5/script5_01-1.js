@@ -9,3 +9,4 @@ if (a == b) {
   saida.innerHTML=`a = ${a}, b = ${b}<br>`;
   saida.innerHTML+=`A variável a é igual a variável b`;  
 }
+saida.innerHTML+="<br>Continua...";
