@@ -1,15 +1,19 @@
+/*
+Desafio:
+Baseado no código script5_07.js
+Converter de switch case para if, else if, else
+*/
 let destino,msg;
 const saida=document.querySelector(".saida");
 destino=prompt("Digite seu destino: ");
 
-switch (destino) {
-  case "São Paulo":
+if(destino=="São Paulo"){
     msg="Seja bem vindo a cidade que nunca para!";
-  break;
-  case "New York":
+}
+else if(destino=="New York"){
     msg="Seja bem vindo a Big Apple!";
-  break;
-  default:
+}
+else{
     msg="Não encontramos seu destino!";
 }
 saida.innerHTML=msg;
