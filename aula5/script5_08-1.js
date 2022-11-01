@@ -34,3 +34,29 @@ while (i >= 0) {//condição: i<=10 ou i<11
     i--;//contador
 }
 saida.innerHTML+="<hr>";
+/*
+Desafio3: Mostrar a saída 0 2 4 6 8 10
+*/
+i=0;//valor inicial  
+while (i <= 10) {//condição 
+    saida.innerHTML+=i + " ";
+    //i++;//i=i+1;//i+=1
+    i+=2;
+}
+saida.innerHTML+="<hr>";
+/*
+Desafio4: Vcs conhecem essa tag? <h1></h1>
+<h1> até <h6>
+Criar um código para mostrar as linhas dentro das tags
+de h1 até h6
+Simulação:
+<h1>Linha1</h1>
+<h2>Linha2</h2>
+....
+<h6>Linha6</h6>
+*/
+i=1;//valor inicial  
+while (i <= 6) {//condição 
+    saida.innerHTML+=`<h${i}>Linha${i}</h${i}>`;
+    i++;//contador
+}
