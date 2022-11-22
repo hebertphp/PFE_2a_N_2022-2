@@ -6,7 +6,10 @@ Mostrar todos os valores do array;
 Mostrar os valores individuais, um por linha.<br><hr>
 */
 const saida=document.querySelector(".saida");
+//              0        1        2          3
 const lista=["Arroz", "Feijão", "Leite", "Café"];
+
+lista[3]+=" com Miojo";
 
 saida.innerHTML=`${lista}<hr>`;
 saida.innerHTML+=`${lista[0]}<br>`;
