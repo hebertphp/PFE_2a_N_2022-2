@@ -5,6 +5,19 @@ const produtos=["mouse","teclado","monitor","headset","café","celular"];
 //  var_simples serve para pegar cada valor individual do array
 // um valor de cada vez
 //}
-for (let var_qq of produtos){
-    saida.innerHTML+=`${var_qq}<br>`;
+for (let x of estudante){
+    saida.innerHTML+=`${x}<br>`;
 }
+
+/*
+x="mouse";saida.innerHTML+=`${x}<br>`;//imprime mouse
+x="teclado";saida.innerHTML+=`${x}<br>`;//imprime apenas teclado
+lista ordenada de estudante
+1. Astrogildo
+2. Belarmina
+<ol>
+    <li>Astrogildo</li>
+    <li>Belarmina</li>
+</ol>    
+
+*/
