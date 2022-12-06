@@ -28,4 +28,8 @@ lista ordenada de estudante
     <li>Belarmina</li>
 </ol>    
 
+<select name="sei_la">
+    <option value="sp">sp</option>
+    <option value="rj">rj</option>
+</select>
 */
