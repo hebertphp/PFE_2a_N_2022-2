@@ -14,8 +14,16 @@ function calc(){
     let x,y;
     x=10;
     y=3;
-    return x+y;
+    return "x+y";
+}
+function media(av1,av2){
+    let media=(av1+av2)/2;
+    return media;
 }
 boas_vindas();//execução/chamar a function
 boas_vindas();
-calc();
+let x = calc();
+saida.innerHTML+=x;
+saida.innerHTML+=calc();
+saida.innerHTML+="<hr>";
+saida.innerHTML+=media();
