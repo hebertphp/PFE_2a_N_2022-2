@@ -7,8 +7,8 @@ function boas_vindas()
 -------------------------------------------- */
 const saida=document.querySelector('.saida');
 
-function boas_vindas() {//crição da function
-    saida.innerHTML+="Seja bem vindo(a)!<br>";
+function boas_vindas(nome) {//crição da function
+    saida.innerHTML+=`Seja bem vindo(a) ${nome} <br>`;
 }
 function calc(){
     let x,y;
@@ -17,13 +17,11 @@ function calc(){
     return "x+y";
 }
 function media(av1,av2){
-    let media=(av1+av2)/2;
-    return media;
+    return (av1+av2)/2;
 }
-boas_vindas();//execução/chamar a function
-boas_vindas();
+boas_vindas("Estudante");//execução/chamar a function
 let x = calc();
 saida.innerHTML+=x;
 saida.innerHTML+=calc();
 saida.innerHTML+="<hr>";
-saida.innerHTML+=media();
+saida.innerHTML+=media(8,9);
