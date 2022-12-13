@@ -12,10 +12,26 @@ Média
 
 */
 const saida=document.querySelector('.saida');
+const nome=document.querySelector('#nome');
+const av1=document.querySelector('#av1');
+const av2=document.querySelector('#av2');
+const btn1=document.querySelector('.btn1');
+const btn2=document.querySelector('.btn2');
+
+btn1.onclick=mostrarSaida;
+btn2.addEventListener("click", mostrarSaida);
 
 function boas_vindas(nome) {//crição da function
     saida.innerHTML+=`Seja bem vindo(a) ${nome} <br>`;
 }
 function media(av1,av2){
     return (av1+av2)/2;
+    //return av1+av2;
+}
+function mostrarSaida(){
+    saida.innerHTML=`Nome: ${nome.value}<br>`;
+    saida.innerHTML+=`AV1: ${av1.value}<br>`;
+    saida.innerHTML+=`AV2: ${av2.value}<br>`;
+    saida.innerHTML+=`Média: `+media(parseFloat(av1.value),parseFloat(av2.value));
+
 }
