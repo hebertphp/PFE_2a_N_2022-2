@@ -20,6 +20,7 @@ const btn2=document.querySelector('.btn2');
 
 btn1.onclick=mostrarSaida;
 btn1.onclick=boas_vindas;
+
 btn2.addEventListener("click", mostrarSaida);
 btn2.addEventListener("click", boas_vindas);
 
