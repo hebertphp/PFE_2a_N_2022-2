@@ -19,7 +19,10 @@ const btn1=document.querySelector('.btn1');
 const btn2=document.querySelector('.btn2');
 
 btn1.onclick=mostrarSaida;
+btn1.onclick=boas_vindas;
 btn2.addEventListener("click", mostrarSaida);
+btn2.addEventListener("click", boas_vindas);
+
 
 function boas_vindas(nome) {//crição da function
     saida.innerHTML+=`Seja bem vindo(a) ${nome} <br>`;
